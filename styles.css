@@ -1,0 +1,77 @@
+.salama-legacy-center {
+    font-family: 'Arial', sans-serif;
+    color: #0A2E5D;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    background-color: #F5F7FA;
+    line-height: 1.6;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Header Styling */
+header {
+    background-color: #0A2E5D;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #C9A227;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #0A2E5D;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0A2E5D;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    body {
+        font-size: 14px;
+    }
+}
